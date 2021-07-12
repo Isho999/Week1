@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap'); /* Here is the font link from GOOGLEFONTS*/ 
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+                background: url(./img/pacto-visual-cWOzOnSoh6Q-unsplash.jpg); /*I added the background here*/
+                background-size: 100%; /*Resized it here*/
+                background-repeat: no-repeat;/*Made sure it doesn't repeat when you make the page smaller*/
+            }
+
+        header{ /*here I added the header settings so it works*/
+            width: 100%;
+            height: 210px;
+            background-color: white;
+            display: block;
+        }
+
+        .inner-header { /*This div comes handy here, it makes it easier for me to put the items and logo in place*/
+            width: 1000px; 
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .logo { /*I used this to set the settings for the logo*/
+            vertical-align: middle;
+            display: table;
+        }
+
+        .inner-header ul{ /*same here to set the settings for the ul*/
+            float: right;     /*this makes the ul goes to the end of the Inner_header*/
+            margin-top: -7.2em;
+            height: 100%;
+        }
+
+         .inner-header a{ /*I set regualr settings here for the a*/
+             font-size: 15px;
+             color: lightgreen;
+             display: table;
+             padding: 0px 20px;
+             float: left;
+             font-weight: 800;
+         }   
+
+        .inner_header li {
+            display: inline; /*This made the li be inlined*/
+        }
+
+        .showcase{  /*Here I added it general info about the showcase, same thing down here and for  Join us page*/
+            color: white;
+            width: 1000px; 
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .showcase {
+            margin-top: 2em;
+        }
+
+        .showcase button{
+            padding: 20px 30px;
+            background-color: lightgreen;
+            border: none;
+            font-size: 25px;
+            font: 800;
+        }
+
+        footer {
+            margin-top: 5em;
+        }
+        
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARS Home</title>
+</head>
+<body>
+    <header>
+        <div class="inner-header">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/ARSLogo.png" alt="ARS logo" width="200px" height="200px"></a> <!--I put the width and height 400 because you said it's okay to do that-->
+        </div>
+        <ul>
+            <a href="./index.html"><li>ARS Home</li></a>
+            <a href="./Join-us.html"><li>Join Us</li></a>
+            <a href="./Re-home-dog.html"><li>Re-Home a Dog</li></a>
+            <a href="./Re-Home-cat.html"><li>Re-Home a Cat</li></a>
+            <a href="./something-different.html"><li>Seomthing Different</li></a>
+        </ul>
+        </div>
+    </header>
+
+    <div class="showcase"> <!--Here I added for the link-->
+        <div class="details"> <!--I added this so it be eaiser to control the text wihtout the button-->
+            <h1>Welcome to Animal Rescue Service</h1><br>
+            <P>ARS, Animal Rescue Services is a volunteer organization that rescues and re-homes all manner of animals.<br> What are you waiting for? Join us!</P><br>
+        </div>
+        <a href="./Join-us.html"><button>Join Us!</button></a>
+    </div>
+
+    <footer> <!--Her is the footer for the logo-->
+        <a href="../main-website/index.html" target="blank"><img src="./img/Isho-lightmode-01.png" alt="Isho Creator logo" width="200px" height="200px"></a>
+    </footer>
+
+</body>
+</html>
