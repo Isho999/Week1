@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap'); /* Here is the font link from GOOGLEFONTS*/ 
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+           font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #77e00d;
+        }
+
+        header{ /*here I added the header settings so it works*/
+            width: 100%;
+            height: 210px;
+            background-color: white;
+            display: block;
+        }
+
+        .inner-header { /*This div comes handy here, it makes it easier for me to put the items and logo in place*/
+            width: 1000px; 
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .logo { /*I used this to set the settings for the logo*/
+            vertical-align: middle;
+            display: table;
+        }
+
+        .inner-header ul{ /*same here to set the settings for the ul*/
+            float: right;     /*this makes the ul goes to the end of the Inner_header*/
+            margin-top: -7.2em;
+            height: 100%;
+        }
+
+         .inner-header a{ /*I set regualr settings here for the a*/
+             font-size: 15px;
+             color: lightgreen;
+             display: table;
+             padding: 0px 20px;
+             float: left;
+             font-weight: 800;
+         }   
+
+        .inner_header li {
+            display: inline; /*This made the li be inlined*/
+        }
+
+        .details {
+            width: 1000px; 
+            height: auto;
+            display: block;
+            margin: 2em auto;
+            border: none;
+        }
+
+        .images {
+            width: 1000px; 
+            height: auto;
+            display: block;
+            margin: 2em auto;
+        }
+
+        .first-image img{
+            border: 5px solid green;
+            display: block;
+        }
+
+        .second-image img{
+            border: 5px solid green;
+        }
+
+        .second-image{
+             float: right;
+             margin-top: -19em;
+         }
+
+         .third-image {
+             text-align: center;
+
+        
+        }
+
+        .third-image img{
+            border: 5px solid green;
+        }
+         footer {
+             margin-top: -12em;
+         }
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARS Home</title>
+</head>
+<body>
+    <header>
+        <div class="inner-header">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/ARSLogo.png" alt="ARS logo" width="200px" height="200px"></a>
+        </div>
+        <ul>
+            <a href="./index.html"><li>ARS Home</li></a>
+            <a href="./Join-us.html"><li>Join Us</li></a>
+            <a href="./Re-home-dog.html"><li>Re-Home a Dog</li></a>
+            <a href="./Re-Home-cat.html"><li>Re-Home a Cat</li></a>
+            <a href="./something-different.html"><li>Seomthing Different</li></a>
+        </ul>
+        </div>
+    </header>
+
+    <div class="details">
+        <h1>Re-Home a Cat!</h1><br>
+        <p>Click on the images and viist caring cat website<br>
+            How to take care of cats? <a href="https://www.aspca.org/pet-care/cat-care/general-cat-care" target="blank" style="color: red; font-weight: 800;">click here </a>
+        </p>
+    </div>
+    <div class="images">
+    <div class="first-image">
+        <a target="blank" href="https://www.petfinder.com/"><img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sleepy cat from ARS" width="300px"> </a>
+        <br><cite>The Munchkin cat or Sausage cat is a<br> relatively new breed of cat characterized<br> by its very short legs, which are caused<br> by genetic mutation.</cite>
+    </div>
+    <div class="second-image">
+        <a target="blank" href="https://www.petsmart.ca/"><img src="https://images.unsplash.com/photo-1547565560-7d3313e7fff1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZXhvdGljJTIwc2hvcnRoYWlyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="angry cat" width="300px"></a>
+        <br><cite>The Exotic Shorthair is a breed of cat<br> developed as a short-haired version of<br> the Persian. The Exotic is similar to the<br> Persian in many ways</cite>
+    </div>
+    </div>
+    <div class="third-image">
+        <a target="blank" href="https://www.petmd.com/"><img src="https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNhdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="cute cat" width="300px"> </a>
+        <br><cite>The Persian cat is a long-haired breed of<br> cat characterized by its round face and short<br> muzzle. It is also known as the "Persian Longhair"<br> in the English-speaking countries. </cite>
+    </div>
+    
+
+    <footer>
+        <img src="./img/Isho-lightmode-01.png" alt="Isho logo" width="200px" height="200px">
+    </footer>
+</body>
+</html>

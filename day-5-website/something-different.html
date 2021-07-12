@@ -1,0 +1,150 @@
+<!--I only added comments here because "rehome cat" and "rehome dog" are basically built the same way-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap'); /* Here is the font link from GOOGLEFONTS*/ 
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+           font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: lightgreen;
+        }
+
+        header{ /*here I added the header settings so it works*/
+            width: 100%;
+            height: 210px;
+            background-color: white;
+            display: block;
+        }
+
+        .inner-header { /*This div comes handy here, it makes it easier for me to put the items and logo in place*/
+            width: 1000px; 
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .logo { /*I used this to set the settings for the logo*/
+            vertical-align: middle;
+            display: table;
+        }
+
+        .inner-header ul{ /*same here to set the settings for the ul*/
+            float: right;     /*this makes the ul goes to the end of the Inner_header*/
+            margin-top: -7.2em;
+            height: 100%;
+        }
+
+         .inner-header a{ /*I set regualr settings here for the a*/
+             font-size: 15px;
+             color: lightgreen;
+             display: table;
+             padding: 0px 20px;
+             float: left;
+             font-weight: 800;
+         }   
+
+        .inner_header li {
+            display: inline; /*This made the li be inlined*/
+        }
+
+        .details { /*Here I set the general settings for the text below*/
+            width: 1000px; 
+            height: auto;
+            display: block;
+            margin: 2em auto;
+            border: none;
+        }
+
+        .details button{ /*Here I set the button*/
+            background-color: black;
+            color: white;
+            border-radius: 1em;
+            padding: 20px 35px;
+            font-size: 25px;
+        }
+
+        .images { /*I added a border so they be aligned with the logo and li*/
+            width: 1000px; 
+            height: auto;
+            display: block;
+            margin: 2em auto;
+        }
+
+        .first-img img{ /*Added border here*/
+            border: 5px solid green;
+        }
+
+         .second-image{ /*made this float to the right and go up by margin*/
+             float: right;
+             margin-top: -16em;
+         }
+
+         .second-image img{
+            border: 5px solid green;
+         }
+
+         .third-image { /*I didn't put this in the same images div so I can center it easily an have freedom with it*/
+             text-align: center;
+         }
+
+         .third-image img{
+            border: 5px solid green;
+         }
+
+         footer {
+             margin-top: -8em;
+         }
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARS Home</title>
+</head>
+<body>
+    <header>
+        <div class="inner-header">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/ARSLogo.png" alt="ARS logo" width="200px" height="200px"></a>
+        </div>
+        <ul>
+            <a href="./index.html"><li>ARS Home</li></a>
+            <a href="./Join-us.html"><li>Join Us</li></a>
+            <a href="./Re-home-dog.html"><li>Re-Home a Dog</li></a>
+            <a href="./Re-Home-cat.html"><li>Re-Home a Cat</li></a>
+            <a href="./something-different.html"><li>Seomthing Different</li></a>
+        </ul>
+        </div>
+    </header>
+    <div class="details"> <!--Here I gave details about the page subject-->
+        <h1>We have all kind of Animals</h1><br>
+        <p>In ARS we care about all type of animals.<br> Here we have diifferent pictures of different aniamls</p><br>
+        <a href="https://www.novascotiaspca.ca/" target="blank"><button>Nova Scotia SPCA</button></a>
+    </div>  
+
+    <div class="images"> <!--I used this div to control 2 of them and leave the last one and then I gave each one a div so I be able to add borders and control them-->
+        <div class="first-img">
+            <img src="https://images.unsplash.com/photo-1557657043-23eec69b89c9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Seal from ARS" width="300px" height="auto"><br><cite>Seals are found along most coasts and<br> cold waters, but a majority of them live<br> in the Arctic and Antarctic waters.</cite>
+        </div>
+        <div class="second-image">
+            <img src="https://images.unsplash.com/photo-1557401622-cfc0aa5d146c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZWFnbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Eagle from ARS" width="300px"> <br><cite>Bald eagles are found in the wil in their<br> North American habitat, which is a place<br> where an animal.</cite>
+        </div>
+        </div>
+        <div class="third-image">
+            <img src="https://images.unsplash.com/flagged/photo-1566127992631-137a642a90f4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9ua2V5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Moneky from ARS" width="300px"><br>
+            <cite>Most monkeys live in the tropical rainforests<br> of Asia, Africa, and Central and South America<br>, or the savannas of Africa.</cite>
+        </div>
+
+        <footer>
+            <a href="../main-website/index.html" target="blank"><img src="./img/Isho-lightmode-01.png" alt="Isho Creator logo" width="200px" height="200px"></a>
+        </footer>
+</body>
+</html>

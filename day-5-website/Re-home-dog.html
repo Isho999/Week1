@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap'); /* Here is the font link from GOOGLEFONTS*/ 
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+           font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #57f7ea;
+        }
+
+        header{ /*here I added the header settings so it works*/
+            width: 100%;
+            height: 210px;
+            background-color: white;
+            display: block;
+        }
+
+        .inner-header { /*This div comes handy here, it makes it easier for me to put the items and logo in place*/
+            width: 1000px; 
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .logo { /*I used this to set the settings for the logo*/
+            vertical-align: middle;
+            display: table;
+        }
+
+        .inner-header ul{ /*same here to set the settings for the ul*/
+            float: right;     /*this makes the ul goes to the end of the Inner_header*/
+            margin-top: -7.2em;
+            height: 100%;
+        }
+
+         .inner-header a{ /*I set regualr settings here for the a*/
+             font-size: 15px;
+             color: lightgreen;
+             display: table;
+             padding: 0px 20px;
+             float: left;
+             font-weight: 800;
+         }   
+
+        .inner_header li {
+            display: inline; /*This made the li be inlined*/
+        }
+
+        .details {
+            width: 1000px; 
+            height: auto;
+            display: block;
+            margin: 2em auto;
+            border: none;
+        }
+
+        .images {
+            width: 1000px; 
+            height: auto;
+            display: block;
+            margin: 2em auto;
+        }
+
+        .first-image img{
+            border: 5px solid green;
+        }
+
+        .second-image{
+             float: right;
+             margin-top: -20em;
+         }
+
+        .second-image img{
+            border: 5px solid green;
+        }
+
+         .third-image {
+             text-align: center;
+         }
+
+         .third-image img{
+            border: 5px solid green;
+         }
+         footer {
+             margin-top: -10em;
+         }
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARS Home</title>
+</head>
+<body>
+    <header>
+        <div class="inner-header">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/ARSLogo.png" alt="ARS logo" width="200px" height="200px"></a>
+        </div>
+        <ul>
+            <a href="./index.html"><li>ARS Home</li></a>
+            <a href="./Join-us.html"><li>Join Us</li></a>
+            <a href="./Re-home-dog.html"><li>Re-Home a Dog</li></a>
+            <a href="./Re-Home-cat.html"><li>Re-Home a Cat</li></a>
+            <a href="./something-different.html"><li>Seomthing Different</li></a>
+        </ul>
+        </div>
+    </header>
+    
+    <div class="details">
+        <h1>Re-Home a Dog!</h1>
+        <p>Click on the images and visit caring dog website<br>
+            How to take care of dogs? <a href="https://iditarod.com/ten-tips-for-taking-care-of-your-dog/" target="blank" style="color: red; font-weight: 800;">click here </a>
+        </p>
+    </div>
+    <div class="images">
+    <div class="first-image">
+        <a target="blank" href="https://www.petfinder.com/"><img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Cute Dog from ARS" width="300px"> </a><br>
+        <cite>The Golden Retriever is a medium-large<br> gun dog that was bred to retrieve shot<br> waterfowl, such as ducks and upland<br> game birds, during hunting and <br>shooting parties.</cite>
+    </div>
+    <div class="second-image">
+        <a target="blank" href="https://www.petsmart.ca/"><img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZG9nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Dog with drip" width="300px"></a><br>
+        <cite>The pug is a breed of dog with physically<br> distinctive features of a wrinkly,<br> short-muzzled face, and curled tail. </cite>
+    </div>
+    </div>
+    <div class="third-image">
+        <a target="blank" href="https://www.barkbox.com/join/ddgeneric?utm_source=google&utm_medium=cpc&utm_campaign=bb_search_brand_core_exact_canada&campaignid=11254207340&adgroupid=112120669804&adid=469835297941&gclid=EAIaIQobChMI0J3z5JjW8QIV2z2tBh274gwrEAAYASAAEgKXCvD_BwE"><img src="https://images.unsplash.com/photo-1578133507770-a35cc3c786e6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hpYmElMjBpbnV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Dog running" width="300px"> </a><br>
+        <cite>The Shiba Inu is a breed of hunting dog<br> from Japan. A small-to-medium breed, it is<br> the smallest of the six original and distinct spitz<br> breeds of dog native to Japan</cite>
+    </div>
+
+    <footer>
+        <img src="./img/Isho-lightmode-01.png" alt="Isho logo" width="200px" height="200px">
+    </footer>
+</body>
+</html>

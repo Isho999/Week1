@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap'); /* Here is the font link from GOOGLEFONTS*/ 
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+                background: url(./img/joe-caione-qO-PIF84Vxg-unsplash.jpg); /*I added the background here*/
+                background-size: 100%; /*Resized it here*/
+                background-repeat: no-repeat;/*Made sure it doesn't repeat when you make the page smaller*/
+            }
+
+        header{ /*here I added the header settings so it works*/
+            width: 100%;
+            height: 210px;
+            background-color: white;
+            display: block;
+        }
+
+        .inner-header { /*This div comes handy here, it makes it easier for me to put the items and logo in place*/
+            width: 1000px; 
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .logo { /*I used this to set the settings for the logo*/
+            vertical-align: middle;
+            display: table;
+        }
+
+        .inner-header ul{ /*same here to set the settings for the ul*/
+            float: right;     /*this makes the ul goes to the end of the Inner_header*/
+            margin-top: -7.2em;
+            height: 100%;
+        }
+
+         .inner-header a{ /*I set regualr settings here for the a*/
+             font-size: 15px;
+             color: lightgreen;
+             display: table;
+             padding: 0px 20px;
+             float: left;
+             font-weight: 800;
+         }   
+
+        .inner_header li {
+            display: inline; /*This made the li be inlined*/
+        }
+
+        .details { /*Here I set the details for the info and text in general*/
+            color: white;
+            line-height: 2.2em;
+            width: 1000px; 
+            height: 100%;
+            display: block; /*I added this so it display as a block*/
+            margin: 0 auto;
+            margin-top: 2em;
+            display: block;
+            background-color: black;
+            padding: 1em;
+            border-radius: 1em; /*this changed the element radius*/
+        }
+
+        .details address{ /*The dive came in handy here*/
+            float: right;
+            margin-top: -18em;
+            color:  white;
+            display: block;
+            background-color: black;
+            padding: 1em;
+            border-radius: 1em;
+        }
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARS Home</title>
+</head>
+<body>
+    <header>
+        <div class="inner-header">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/ARSLogo.png" alt="ARS logo" width="200px" height="200px"></a>
+        </div>
+        <ul>
+            <a href="./index.html"><li>ARS Home</li></a>
+            <a href="./Join-us.html"><li>Join Us</li></a>
+            <a href="./Re-home-dog.html"><li>Re-Home a Dog</li></a>
+            <a href="./Re-Home-cat.html"><li>Re-Home a Cat</li></a>
+            <a href="./something-different.html"><li>Seomthing Different</li></a>
+        </ul>
+        </div>
+    </header>
+
+    <div class="details"> <!--Here I added the details abou the contact info-->
+        <div class="main-text"><!--I added this so I can control this text without the address below-->
+            <h1>Join us!</h1>
+            <p>
+                Drop by our shelters, thrift stores or provincial office and make your donation<br> in-person
+                Make a gift of securities  (stocks, bonds and mutual funds)
+            </p>
+            <p>
+                Cheques can be made out to  Nova Scotia SPCA<br>
+                Plan and host a fundraiser or event<br>
+                Pick up the top-needed supplies on our shelter wish list <br>
+                Give us a call at 1-844-835-4798 or e-mail info@spcans.ca for <br> assistance with making your gift.  We would love to help you! <br>
+
+            </p>
+        </div>
+        <address>Mail your gift to:<br>
+            Nova Scotia SPCA<br>
+            PO Box 38073 STN Burnside<br>
+            Dartmouth, NS<br>
+            B3B 1X2<br>
+            </address>
+    </div>
+
+    <footer>
+        <a href="../main-website/index.html" target="blank"><img src="./img/Isho-lightmode-01.png" alt="Isho Creator logo" width="200px" height="200px"></a>
+    </footer>
+</body>
+</html>
